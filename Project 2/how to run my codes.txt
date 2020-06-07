@@ -1,0 +1,8 @@
+Input 2 arguments for client: host name and server port number.
+Input 1 argument for server: server port number.
+Run "client", then run "server".
+When running, 5 key value pairs were pre populated in advance. The pairs are <Integer, Integer> data types. Then the client continuously waits for input. There are 3 operations in total: PUT, DELETE, GET. The input format for them should be as following respectively:
+PUT $key $value
+DELETE $key
+GET $key
+$key, $value stand for their integer values. After each input, there should be current time and corresponding operation results showing on the screen. If the input format was not correct, there should be an error message and the socket will be closed till next input.
